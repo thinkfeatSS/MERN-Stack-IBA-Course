@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fridays Class</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <img class="logo" src="assets/white bg.jpg" alt="logo" />
+      <ul>
+        <li><a>Home</a></li>
+        <li><a>Contact Us</a></li>
+        <li><a>About</a></li>
+        <li><a>Bye Bye</a></li>
+      </ul>
+      <div class="nav-buttons">
+        <button>Login</button>
+        <button>Signup</button>
+      </div>
+    </nav>
+    <section>
+        <div class="box-one">
+            <div class="inner-box"></div>
+        </div>
+        <div class="box-two"></div>
+    </section>
+    <style>
+      .logo {
+        width: 200px;
+      }
+      .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+      }
+      li {
+        color: blue;
+        font-family: 'Courier New', 'Courier', 'monospace';
+        font-size: 1.5rem;
+      }
+      .inner-box {
+        width: 50%;
+        height: 100%;
+        background-color: aqua;
+      }
+      .box-one{
+        width: 50vw;
+        height: 50vh;
+        background-color: blueviolet;
+      }
+      .box-two{
+        width: 250px;
+        height: 250px;
+        background-color: blueviolet;
+      }
+      section {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+    </style>
+  </body>
+</html>
