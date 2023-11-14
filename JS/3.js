@@ -7,6 +7,7 @@
 // false
 // 0
 // undefined
+// var name;
 // null
 // ''
 // NaN
@@ -24,9 +25,34 @@
 // }
 // console.log("hello JavaScript")
 // __________________________
-let degree = 50
-if(degree > 42) {
-    console.log("Its warm")
+// 10 < degree
+// degree < 10
+// 
+// 
+
+
+// let degree = 50;
+// if(degree > 42) {
+//     console.log("Its warm");
+// }else{
+//     console.log("Its cool");
+// }
+// ___________________________________________
+
+let degree = 40
+if (degree < 10){
+    console.log("Too cool");
+}else if (degree < 25) {
+    console.log("cool");
+}else if (degree < 33) {
+    console.log("normal");
+}else if (degree < 42){
+    console.log("Warm");
 }else{
-    console.log("Its cool")
+    console.log("too hot");
 }
+
+
+
+
+
