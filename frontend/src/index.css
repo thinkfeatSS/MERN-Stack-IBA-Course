@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html {
+    @apply font-Poppins;
+}
+body {
+    @apply box-border bg-gray-900 text-gray-100;
+}
 
-@layer components{
+/* @layer components{
  .nav-link {
  @apply hover:text-fuchsia-700 hover:font-semibold hover:border-b-2 hover:border-fuchsia-700
  }
-}
+} */
