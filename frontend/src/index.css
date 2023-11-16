@@ -8,7 +8,7 @@ html {
     @apply font-Poppins;
 }
 body {
-    @apply box-border bg-gray-900 text-gray-100;
+    @apply box-border bg-gray-900 text-gray-100 overflow-x-hidden w-screen;
 }
 
 /* @layer components{
