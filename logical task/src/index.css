@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply font-Poppins;
+}
+body {
+    @apply box-border bg-gray-900 text-gray-100 flex justify-center items-center h-screen;
+}
+@layer base {
+    input {
+        @apply text-black p-4;
+    }
+    button {
+        @apply bg-gray-100 text-gray-900 rounded-full py-1 px-3 hover:bg-fuchsia-500 hover:animate-bounce;
+    }
+    h1 {
+        @apply text-3xl text-center;
+    }
+}
+
+/* 
+/* @layer components{
+ .nav-link {
+ @apply hover:text-fuchsia-700 hover:font-semibold hover:border-b-2 hover:border-fuchsia-700
+ }
+} */
