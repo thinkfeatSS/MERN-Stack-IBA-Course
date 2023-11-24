@@ -11,8 +11,6 @@ body {
     @apply box-border bg-gray-900 text-gray-100 overflow-x-hidden w-screen;
 }
 
-/* @layer components{
- .nav-link {
- @apply hover:text-fuchsia-700 hover:font-semibold hover:border-b-2 hover:border-fuchsia-700
- }
-} */
+.btn-primary {
+    @apply bg-cyan-600 font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
+}
